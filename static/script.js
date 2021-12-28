@@ -137,10 +137,3 @@ const connecToNewUser = (userId, stream) => {
     `
     document.querySelector('.main__video_button').innerHTML = html;
   }
-
-
-
-
-
-
-
