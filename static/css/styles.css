@@ -185,7 +185,7 @@ img {
 .nav__link {
   color: var(--white-color);
   font-size: var(--h2-font-size);
-  text-transform: uppercase;
+  text-transform: upperbuymeacoffee;
   font-weight: var(--font-semi-bold);
   background: var(--text-gradient);
   color: transparent;
@@ -302,114 +302,114 @@ img {
   column-gap: .75rem;
 }
 
-/*=============== SPONSOR ===============*/
-.sponsor__img {
+/*=============== taggs ===============*/
+.taggs__img {
   width: 90px;
 }
 
-.sponsor__container {
+.taggs__container {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   row-gap: 5rem;
   justify-items: center;
   align-items: center;
 }
 
-/*=============== SPECS ===============*/
-.specs__container {
+/*=============== impacts ===============*/
+.impacts__container {
   position: relative;
 }
 
-.specs__content {
+.impacts__content {
   row-gap: 1.5rem;
 }
 
-.specs__data {
+.impacts__data {
   display: grid;
   row-gap: .25rem;
 }
 
-.specs__icon {
+.impacts__icon {
   font-size: 1.2rem;
   color: var(--white-color);
 }
 
-.specs__title {
+.impacts__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
-.specs__subtitle {
+.impacts__subtitle {
   font-size: var(--smaller-font-size);
 }
 
-.specs__data:nth-child(1), .specs__data:nth-child(4) {
+.impacts__data:nth-child(1), .impacts__data:nth-child(4) {
   margin-left: 1.5rem;
 }
 
-.specs__img {
+.impacts__img {
   width: 250px;
   position: absolute;
   top: 2rem;
   right: -4rem;
 }
 
-/*=============== CASE ===============*/
-.case__container {
+/*=============== buymeacoffee ===============*/
+.buymeacoffee__container {
   position: relative;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.case__data {
+.buymeacoffee__data {
   padding: 5rem 0 3rem;
 }
 
-.case__img {
+.buymeacoffee__img {
   width: 250px;
   height:450px;
   position: absolute;
 }
 
-.case__description {
+.buymeacoffee__description {
   margin-bottom: var(--mb-1-5);
   line-height: var(--text-line-height);
 }
 
-/*=============== DISCOUNT ===============*/
-.discount__container {
+/*=============== books ===============*/
+.books__container {
   position: relative;
   background-color: var(--container-color);
   padding: 2rem 1.5rem;
   border-radius: .75rem;
 }
 
-.discount__title {
+.books__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
-.discount__description {
+.books__description {
   margin-bottom: var(--mb-1);
 }
 
-.discount__img {
+.books__img {
   width: 300px;
   position: absolute;
   top: 4rem;
   right: -11rem;
 }
 
-/*=============== PRODUCTS ===============*/
-.products__line {
+/*=============== studyrooms ===============*/
+.studyrooms__line {
   line-height: 4rem;
 }
 
-.products__container {
+.studyrooms__container {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem 1.5rem;
   padding-top: 3rem;
 }
 
-.products__card {
+.studyrooms__card {
   position: relative;
   height: 132px;
   background-color: var(--container-color);
@@ -418,7 +418,7 @@ img {
   display: grid;
 }
 
-.products__img {
+.studyrooms__img {
   width: 80px;
   position: absolute;
   inset: 0;
@@ -427,19 +427,19 @@ img {
   top: -3rem;
 }
 
-.products__content {
+.studyrooms__content {
   align-self: flex-end;
 }
 
-.products__title, .products__price {
+.studyrooms__title, .studyrooms__price {
   font-size: var(--small-font-size);
 }
 
-.products__price {
+.studyrooms__price {
   font-weight: var(--font-semi-bold);
 }
 
-.products__button {
+.studyrooms__button {
   position: absolute;
   right: .5rem;
   bottom: .5rem;
@@ -594,21 +594,21 @@ img {
   .home__description {
     font-size: var(--small-font-size);
   }
-  .specs__img {
+  .impacts__img {
     width: 200px;
   }
-  .case__container {
+  .buymeacoffee__container {
     grid-template-columns: .6fr 1fr;
   }
-  .case__img {
+  .buymeacoffee__img {
     width: 220px;
     top: -2rem;
     left: -9rem;
   }
-  .case__data {
+  .buymeacoffee__data {
     padding: 0;
   }
-  .products__container {
+  .studyrooms__container {
     grid-template-columns: 142px;
     justify-content: center;
   }
@@ -626,35 +626,35 @@ img {
     top: -7rem;
     left: 0;
   }
-  .specs__img {
+  .impacts__img {
     position: initial;
   }
-  .specs__container {
+  .impacts__container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
   }
-  .case__img {
+  .buymeacoffee__img {
     position: initial;
   }
-  .case__data {
+  .buymeacoffee__data {
     padding: 0;
   }
-  .case__container {
+  .buymeacoffee__container {
     grid-template-columns: max-content 250px;
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
   }
-  .discount__img {
+  .books__img {
     position: initial;
   }
-  .discount__container {
+  .books__container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
   }
-  .products__container {
+  .studyrooms__container {
     grid-template-columns: repeat(3, 142px);
     justify-content: center;
   }
@@ -695,41 +695,41 @@ img {
   .home__data {
     padding-top: 8rem;
   }
-  .specs__img {
+  .impacts__img {
     width: 300px;
   }
-  .case__container {
+  .buymeacoffee__container {
     column-gap: 5rem;
   }
-  .case__img {
+  .buymeacoffee__img {
     width: 300px;
   }
-  .case__description {
+  .buymeacoffee__description {
     margin-bottom: var(--mb-2);
   }
-  .discount__container {
+  .books__container {
     grid-template-columns: 250px max-content;
     justify-content: center;
     column-gap: 5rem;
     padding: 3rem 0;
   }
-  .discount__title {
+  .books__title {
     font-size: var(--h2-font-size);
     margin-bottom: var(--mb-1);
   }
-  .discount__description {
+  .books__description {
     margin-bottom: var(--mb-2);
   }
-  .products__container {
+  .studyrooms__container {
     grid-template-columns: repeat(3, 162px);
     gap: 6rem 3rem;
     padding-top: 5rem;
   }
-  .products__card {
+  .studyrooms__card {
     height: 152px;
     padding: .85rem;
   }
-  .products__img {
+  .studyrooms__img {
     width: 95px;
   }
   .footer__container {
@@ -754,10 +754,10 @@ img {
   .home__description {
     padding-right: 5rem;
   }
-  .sponsor__img {
+  .taggs__img {
     width: 100px;
   }
-  .discount__img {
+  .books__img {
     width: 350px;
   }
   .footer__container {

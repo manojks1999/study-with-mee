@@ -55,7 +55,7 @@ if(!paymentDetails.amount || !paymentDetails.customerId || !paymentDetails.custo
     params['ORDER_ID'] = 'TEST_'  + new Date().getTime();
     params['CUST_ID'] = paymentDetails.customerId;
     params['TXN_AMOUNT'] = paymentDetails.amount;
-    params['CALLBACK_URL'] = 'https://zooom-app-demo.herokuapp.com/callback';
+    params['CALLBACK_URL'] = 'http://localhost:8080/callback';
     params['EMAIL'] = paymentDetails.customerEmail;
     params['MOBILE_NO'] = paymentDetails.customerPhone;
  
@@ -137,9 +137,9 @@ app.post("/callback", (req, res) => {
  
            var _result = JSON.parse(response);
              if(_result.STATUS == 'TXN_SUCCESS') {
-                 res.send('payment sucess')
+              res.redirect("/");
              }else {
-                 res.send('payment failed')
+                 res.send('payment failed');
              }
            });
        });
@@ -154,7 +154,7 @@ app.post("/callback", (req, res) => {
 
 
 app.use('/peerjs', peerServer);
-app.get('/about/', (req, res) => {
+app.get('/room/', (req, res) => {
     res.redirect(`/${uuidV4()}`)
   })
 
