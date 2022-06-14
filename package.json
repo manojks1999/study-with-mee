@@ -12,7 +12,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"node server",
+    "start":"node  server",
     "test": "Error no test"
   },
   "keywords": [],
