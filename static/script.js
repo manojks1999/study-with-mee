@@ -58,13 +58,6 @@ function addVideoStream(video, stream) {
 }
 
 
-
-const scrollToBottom = () => {
-  var d = $('.main__chat_window');
-  d.scrollTop(d.prop("scrollHeight"));
-}
-
-
 const muteUnmute = () => {
   const enabled = myVideoStream.getAudioTracks()[0].enabled;
   if (enabled) {
